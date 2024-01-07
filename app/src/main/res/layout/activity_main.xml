@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Name : "
+        android:layout_x="50dp"
+        android:layout_y="80dp"
+        />
+    <EditText
+        android:id="@+id/etext1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="160dp"
+        android:layout_y="60dp"
+        android:hint="Enter Name "/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile No : "
+        android:layout_x="70dp"
+        android:layout_y="145dp"
+        />
+    <EditText
+        android:id="@+id/etext2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="160dp"
+        android:layout_y="130dp"
+        android:hint="Mobile No"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email : "
+        android:layout_x="95dp"
+        android:layout_y="230dp"
+        />
+    <EditText
+        android:id="@+id/etext3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="160dp"
+        android:layout_y="220dp"
+        android:hint="Enter E-mail "/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_x="160dp"
+        android:layout_y="350dp"
+        android:onClick="Submit"/>
+</AbsoluteLayout>
